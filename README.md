@@ -8,7 +8,7 @@ Technical assignment and end-to-end data science solution for the **Data Science
 
 ---
 
-## 📌 Project Context & Objectives
+## Project Context & Objectives
 
 In an EdTech platform, the same course is delivered across multiple cohorts/batches by different instructors. An instructor may teach:
 - Multiple batches of the same course
@@ -25,7 +25,7 @@ Because student learning outcomes, engagement, and ratings fluctuate across batc
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```text
 ├── instructor_effectiveness_modeling.ipynb   # Main Jupyter Notebook (all code, visualizations & analysis)
@@ -38,7 +38,7 @@ Because student learning outcomes, engagement, and ratings fluctuate across batc
 
 ---
 
-## 📊 Dataset Schema
+## Dataset Schema
 
 Each row in `instructor_data.csv` represents a single course batch taught by an instructor:
 
@@ -59,7 +59,7 @@ Each row in `instructor_data.csv` represents a single course batch taught by an 
 
 ---
 
-## 🛠️ Methodology & Technical Architecture
+## Methodology & Technical Architecture
 
 ### Step 1: Exploratory Data Analysis (EDA)
 - Analyzed distributions for all outcome, engagement, and feedback metrics.
@@ -110,7 +110,7 @@ We trained classical ML classifiers to predict the instructor's tier:
 
 ---
 
-## 💡 Mandatory Analysis Questions (Section 5)
+## Mandatory Analysis Questions (Section 5)
 
 ### 1. Which features most influenced instructor effectiveness, and why?
 Completion rate, assignment submission rate, video watch time, and average score improvement had the highest predictive importance in the model.
@@ -144,7 +144,7 @@ Completion rate, assignment submission rate, video watch time, and average score
 
 ---
 
-## 🚀 Quickstart & Setup
+## Quickstart & Setup
 
 ### 1. Clone the repository
 ```bash
@@ -170,11 +170,4 @@ python generate_data.py
 
 ---
 
-## ⚖️ Guidelines & Constraints Compliance
-- ❌ No LLMs or external APIs used in analysis or model code.
-- ❌ No external datasets used.
-- ❌ No AutoML tools used.
-- ✅ Classical scikit-learn algorithms only.
-- ✅ Completely reproducible random seed (`42`).
-- ✅ All notebook cells pre-rendered with zero execution errors.
 
