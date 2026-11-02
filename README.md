@@ -148,7 +148,7 @@ Completion rate, assignment submission rate, video watch time, and average score
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/<your-username>/instructor-effectiveness-modeling.git
+git clone https://github.com/93527Rupali38898/instructor-effectiveness-modeling.git
 cd instructor-effectiveness-modeling
 ```
 
